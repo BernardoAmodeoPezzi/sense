@@ -3,15 +3,13 @@ import { useEffect, useRef, type ReactNode } from "react";
 export function Reveal({
   children,
   delay = 0,
-  as: Tag = "div",
   className = "",
 }: {
   children: ReactNode;
   delay?: number;
-  as?: keyof HTMLElementTagNameMap;
   className?: string;
 }) {
-  const ref = useRef<HTMLElement | null>(null);
+  const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const el = ref.current;
@@ -33,8 +31,8 @@ export function Reveal({
   }, []);
 
   return (
-    <Tag
-      ref={ref as never}
+    <div
+      ref={ref}
       className={className}
       style={{
         opacity: 0,
@@ -43,6 +41,7 @@ export function Reveal({
       }}
     >
       {children}
-    </Tag>
+    </div>
   );
 }
+
