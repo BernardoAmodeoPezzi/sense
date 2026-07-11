@@ -48,7 +48,7 @@ export const CONTACT = {
   whatsapp: "https://wa.me/5132223198",
   instagram: "https://www.instagram.com/sense.medicinaeodonto/",
   facebook: "https://www.facebook.com/SenseMedicinaeOdontologiaIntegradas",
-  maps: "https://www.google.com/maps/place/Sense+-+Medicina+%26+Odontologia+Integradas/@-30.0274049,-51.2032697,17z",
+  maps: "https://www.google.com/maps/place/Sense+-+Medicina+%26+Odontologia+Integradas%2F+Dr+Guilherme+Ruivo+%2F+Dra+Claudia+Alves%2F+Dra+Cristiane+Biasuz%2F+Dra+Carla+Larentis/@-30.0274049,-51.2032697,941m/data=!3m1!1e3!4m6!3m5!1s0x951979749e8ebd1b:0xc05767905e3cc1b0!8m2!3d-30.0274049!4d-51.2032697!16s%2Fg%2F11gl0tg3s7",
   addressLine1: "R. Dr. Florêncio Ygartua, 69 – Sala 305",
   addressLine2: "Moinhos de Vento – Porto Alegre / RS",
   addressLine3: "CEP 90430-010 · Galeria Florêncio Ygartua",
