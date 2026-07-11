@@ -42,15 +42,14 @@ export const team: Doctor[] = [
   },
 ];
 
-export const WHATSAPP_URL = "https://wa.me/5532223198".replace("32223198", "5132223198").replace("55513", "553"); // corrected below
-
 export const CONTACT = {
   phone: "(51) 3222-3198",
-  whatsapp: "https://wa.me/5532223198",
+  phoneTel: "+555132223198",
+  whatsapp: "https://wa.me/5132223198",
   instagram: "https://www.instagram.com/sense.medicinaeodonto/",
-  facebook:
-    "https://www.facebook.com/SenseMedicinaeOdontologiaIntegradas",
-  maps: "https://www.google.com/maps/place/Sense+-+Medicina+%26+Odontologia+Integradas/@-30.0274002,-51.2058446,17z/data=!4m6!3m5!1s0x951979749e8ebd1b:0xc05767905e3cc1b0!8m2!3d-30.0274049!4d-51.2032697",
-  address:
-    "R. Dr. Florêncio Ygartua, 69 – Sala 305, Moinhos de Vento, Porto Alegre/RS · CEP 90430-010",
+  facebook: "https://www.facebook.com/SenseMedicinaeOdontologiaIntegradas",
+  maps: "https://www.google.com/maps/place/Sense+-+Medicina+%26+Odontologia+Integradas/@-30.0274049,-51.2032697,17z",
+  addressLine1: "R. Dr. Florêncio Ygartua, 69 – Sala 305",
+  addressLine2: "Moinhos de Vento – Porto Alegre / RS",
+  addressLine3: "CEP 90430-010 · Galeria Florêncio Ygartua",
 } as const;
