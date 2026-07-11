@@ -1,15 +1,26 @@
 import { Reveal } from "./Reveal";
 import { CONTACT } from "@/lib/team";
+import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
+import type { ComponentType, SVGProps } from "react";
 
-const items = [
+type Item = {
+  label: string;
+  hint: string;
+  href: string;
+  external?: boolean;
+  Icon?: ComponentType<SVGProps<SVGSVGElement>>;
+};
+
+const items: Item[] = [
   {
     label: "Instagram",
     hint: "@sense.medicinaeodonto",
     href: CONTACT.instagram,
     external: true,
+    Icon: InstagramIcon,
   },
-  { label: "Facebook", hint: "Sense Medicina & Odontologia", href: CONTACT.facebook, external: true },
-  { label: "Agendar Horário", hint: "WhatsApp — resposta imediata", href: CONTACT.whatsapp, external: true },
+  { label: "Facebook", hint: "Sense Medicina & Odontologia", href: CONTACT.facebook, external: true, Icon: FacebookIcon },
+  { label: "Agendar Horário", hint: "WhatsApp — resposta imediata", href: CONTACT.whatsapp, external: true, Icon: WhatsAppIcon },
   { label: "Localização", hint: "Google Maps", href: CONTACT.maps, external: true },
 ];
 
@@ -48,7 +59,8 @@ export function Contact() {
                 <div className="text-xs uppercase tracking-[0.22em] text-foreground/50">
                   0{i + 1}
                 </div>
-                <div className="mt-6 font-display text-2xl md:text-3xl group-hover:text-sand transition-colors">
+                <div className="mt-6 flex items-center gap-3 font-display text-2xl md:text-3xl group-hover:text-sand transition-colors">
+                  {it.Icon && <it.Icon className="h-6 w-6 md:h-7 md:w-7 text-sand" />}
                   {it.label}
                 </div>
                 <div className="mt-3 text-sm text-foreground/60 font-light">{it.hint}</div>
