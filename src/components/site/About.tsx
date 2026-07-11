@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import gallerySmile from "@/assets/gallery-smile.jpg";
+import gallerySmile from "@/assets/about-institucional.jpeg";
 
 export function About() {
   return (
