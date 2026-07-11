@@ -1,5 +1,6 @@
 import logo from "@/assets/logo-mark.png";
 import { CONTACT } from "@/lib/team";
+import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -33,24 +34,27 @@ export function Footer() {
               href={CONTACT.instagram}
               target="_blank"
               rel="noreferrer"
-              className="block hover:text-sand transition-colors"
+              className="inline-flex items-center gap-2 hover:text-sand transition-colors"
             >
+              <InstagramIcon className="h-4 w-4" />
               Instagram
             </a>
             <a
               href={CONTACT.facebook}
               target="_blank"
               rel="noreferrer"
-              className="block hover:text-sand transition-colors"
+              className="inline-flex items-center gap-2 hover:text-sand transition-colors"
             >
+              <FacebookIcon className="h-4 w-4" />
               Facebook
             </a>
             <a
               href={CONTACT.whatsapp}
               target="_blank"
               rel="noreferrer"
-              className="block hover:text-sand transition-colors"
+              className="inline-flex items-center gap-2 hover:text-sand transition-colors"
             >
+              <WhatsAppIcon className="h-4 w-4" />
               WhatsApp
             </a>
           </div>
