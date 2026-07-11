@@ -2,7 +2,7 @@ import { Reveal } from "./Reveal";
 import smile from "@/assets/gallery-smile.jpg";
 import instruments from "@/assets/gallery-instruments.jpg";
 import orchid from "@/assets/gallery-orchid.jpg";
-import care from "@/assets/gallery-care.jpg";
+
 
 export function Experience() {
   return (
@@ -50,26 +50,17 @@ export function Experience() {
               />
             </div>
           </Reveal>
-          <Reveal className="col-span-6 lg:col-span-4">
-            <div className="overflow-hidden rounded-[1.25rem]">
-              <img
-                src={care}
-                alt="Cuidado com o sorriso"
-                loading="lazy"
-                className="w-full aspect-[4/5] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
-              />
-            </div>
-          </Reveal>
-          <Reveal delay={120} className="col-span-6 lg:col-span-8">
+          <Reveal className="col-span-12">
             <div className="overflow-hidden rounded-[1.25rem]">
               <img
                 src={smile}
                 alt="Sorriso saudável"
                 loading="lazy"
-                className="w-full aspect-[4/5] lg:aspect-[16/10] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
+                className="w-full aspect-[16/9] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
               />
             </div>
           </Reveal>
+
         </div>
 
         <Reveal delay={200}>
