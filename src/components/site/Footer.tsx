@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-mark.png";
+import logoFull from "@/assets/sense-logo-full.png.asset.json";
 import { CONTACT } from "@/lib/team";
 import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 
@@ -8,14 +8,13 @@ export function Footer() {
     <footer className="border-t border-border/60 pt-20 pb-10">
       <div className="container-page grid gap-12 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-3">
-            <img src={logo} alt="Sense" className="h-10 w-auto" />
-            <span className="font-display text-xl">Sense</span>
-          </div>
-          <p className="mt-4 text-sm font-light text-foreground/70 max-w-xs">
-            Sense — Medicina & Odontologia Integradas
-          </p>
+          <img
+            src={logoFull.url}
+            alt="Sense — Medicina & Odontologia Integradas"
+            className="h-20 w-auto md:h-24"
+          />
         </div>
+
         <div>
           <div className="eyebrow">Endereço</div>
           <div className="mt-4 text-sm font-light text-foreground/75 space-y-1">
