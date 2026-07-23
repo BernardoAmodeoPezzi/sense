@@ -33,10 +33,8 @@ export function Header() {
       <div className="container-page flex items-center justify-between gap-6">
         <a href="#inicio" className="flex items-center gap-3 shrink-0" aria-label="Sense — início">
           <img src={logoMark} alt="Sense" className="h-10 w-auto md:h-11" />
-          <span className="font-display text-lg tracking-wide text-foreground hidden sm:block">
-            Sense
-          </span>
         </a>
+
 
         <nav className="hidden lg:flex items-center gap-8">
           {nav.map((item) => (

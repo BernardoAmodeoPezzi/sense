@@ -1,48 +1,22 @@
 import { CONTACT } from "@/lib/team";
-import heroImg from "@/assets/hero-sense.png";
+import heroAsset from "@/assets/sense-hero-wall.png.asset.json";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-[100svh] w-full overflow-hidden">
       <img
-        src={heroImg}
+        src={heroAsset.url}
         alt="Sense — Medicina & Odontologia Integradas"
         className="absolute inset-0 h-full w-full object-cover"
         width={2000}
         height={1200}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/35 to-black/60" />
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(60% 60% at 30% 40%, color-mix(in oklab, var(--sand) 25%, transparent) 0%, transparent 70%)",
-        }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/50" />
 
-      <div className="container-page relative z-10 flex min-h-[100svh] flex-col justify-center pt-32 pb-24">
-        <span
-          className="eyebrow fade-in-up"
-          style={{ color: "color-mix(in oklab, var(--sand) 80%, white)" }}
-        >
-          Medicina & Odontologia Integradas
-        </span>
-        <h1
-          className="fade-in-up mt-6 max-w-[18ch] text-5xl leading-[1.02] text-white sm:text-6xl md:text-7xl lg:text-8xl"
-          style={{ animationDelay: "120ms" }}
-        >
-          Sense
-        </h1>
-        <p
-          className="fade-in-up mt-6 max-w-xl text-lg font-light text-white/85 md:text-xl"
-          style={{ animationDelay: "220ms" }}
-        >
-          Saúde integrada para cuidar de você em todas as fases da vida.
-        </p>
-
+      <div className="container-page relative z-10 flex min-h-[100svh] flex-col justify-end pb-24">
         <div
-          className="fade-in-up mt-10 flex flex-wrap gap-3"
-          style={{ animationDelay: "340ms" }}
+          className="fade-in-up flex flex-wrap gap-3"
+          style={{ animationDelay: "200ms" }}
         >
           <a
             href={CONTACT.whatsapp}
@@ -78,3 +52,4 @@ export function Hero() {
     </section>
   );
 }
+
