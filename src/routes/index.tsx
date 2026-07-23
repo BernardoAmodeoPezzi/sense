@@ -49,7 +49,7 @@ export const Route = createFileRoute("/")({
             postalCode: "90430-010",
             addressCountry: "BR",
           },
-          openingHours: "Mo-Fr 08:00-18:00",
+          openingHours: "Mo-Fr 08:30-18:00",
         }),
       },
     ],
