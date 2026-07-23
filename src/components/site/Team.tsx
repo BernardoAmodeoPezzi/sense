@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { team, type Doctor, CONTACT } from "@/lib/team";
+import { team, supportTeam, type Doctor, CONTACT } from "@/lib/team";
 import { Reveal } from "./Reveal";
 
 export function Team() {
@@ -74,10 +74,48 @@ export function Team() {
                   <p className="mt-1.5 text-xs uppercase tracking-[0.18em] text-sand">
                     {d.specialty}
                   </p>
+                  <p className="mt-1 text-[0.68rem] uppercase tracking-[0.16em] text-foreground/50">
+                    {d.registry}
+                  </p>
                 </div>
               </button>
             </Reveal>
           ))}
+        </div>
+
+        {/* Equipe de apoio */}
+        <div className="mt-28 md:mt-36">
+          <div className="max-w-2xl">
+            <Reveal>
+              <span className="eyebrow">Equipe de Apoio</span>
+            </Reveal>
+            <Reveal delay={80}>
+              <h3 className="mt-6 font-display text-3xl md:text-4xl leading-[1.1]">
+                Suporte técnico que <em className="italic text-sand">acolhe</em>.
+              </h3>
+            </Reveal>
+            <Reveal delay={160}>
+              <p className="mt-5 text-base font-light text-foreground/70 max-w-lg">
+                Enfermagem, biossegurança e assistência clínica dedicadas a garantir
+                precisão e conforto em cada atendimento.
+              </p>
+            </Reveal>
+          </div>
+          <div className="mt-12 grid gap-6 md:grid-cols-2 max-w-4xl">
+            {supportTeam.map((s, i) => (
+              <Reveal key={s.slug} delay={i * 120}>
+                <div className="h-full rounded-2xl border border-border/60 bg-background/60 p-7 hover:border-sand/60 transition-colors">
+                  <h4 className="font-display text-xl leading-snug">{s.name}</h4>
+                  <p className="mt-1.5 text-xs uppercase tracking-[0.18em] text-sand">
+                    {s.role}
+                  </p>
+                  <p className="mt-4 text-sm font-light leading-relaxed text-foreground/70">
+                    {s.description}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -123,6 +161,9 @@ function DoctorModal({ doctor, onClose }: { doctor: Doctor; onClose: () => void 
             <h3 className="mt-4 font-display text-3xl md:text-4xl leading-tight">
               {doctor.name}
             </h3>
+            <p className="mt-2 text-xs uppercase tracking-[0.18em] text-foreground/55">
+              {doctor.registry}
+            </p>
             <div className="mt-6 space-y-4 text-foreground/75 font-light leading-relaxed text-[0.95rem]">
               {doctor.bio.split("\n\n").map((p, i) => (
                 <p key={i}>{p}</p>
