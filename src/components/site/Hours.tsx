@@ -1,11 +1,11 @@
 import { Reveal } from "./Reveal";
 
 const schedule = [
-  { day: "Segunda-feira", hours: "08:00 — 18:00", open: true },
-  { day: "Terça-feira", hours: "08:00 — 18:00", open: true },
-  { day: "Quarta-feira", hours: "08:00 — 18:00", open: true },
-  { day: "Quinta-feira", hours: "08:00 — 18:00", open: true },
-  { day: "Sexta-feira", hours: "08:00 — 18:00", open: true },
+  { day: "Segunda-feira", hours: "08:30 — 18:00", open: true },
+  { day: "Terça-feira", hours: "08:30 — 18:00", open: true },
+  { day: "Quarta-feira", hours: "08:30 — 18:00", open: true },
+  { day: "Quinta-feira", hours: "08:30 — 18:00", open: true },
+  { day: "Sexta-feira", hours: "08:30 — 18:00", open: true },
   { day: "Sábado", hours: "Fechado", open: false },
   { day: "Domingo", hours: "Fechado", open: false },
 ];
