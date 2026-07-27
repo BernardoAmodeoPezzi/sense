@@ -13,20 +13,20 @@ const values = [
 
 const differentials = [
   {
-    title: "Tradição & Inovação",
-    text: "Mais de 54 anos de experiência clínica combinados às técnicas mais modernas da odontologia contemporânea.",
+    title: "Décadas de Tradição e Inovação",
+    text: "Liderança médica com mais de 54 anos de experiência clínica combinada às técnicas mais modernas e ao embasamento científico da odontologia.",
   },
   {
-    title: "Visão Sistêmica",
+    title: "Visão Sistêmica e Preventiva",
     text: "Conexão real entre endocrinologia, medicina ortomolecular, desenvolvimento facial e reabilitação oral.",
   },
   {
-    title: "Toda a Família",
+    title: "Atendimento para Toda a Família",
     text: "Da prevenção na primeira infância ao acompanhamento metabólico, funcional e estético de adultos e idosos.",
   },
   {
-    title: "Excelência & Biossegurança",
-    text: "Corpo clínico altamente especializado e equipe de suporte técnico dedicada a cada procedimento.",
+    title: "Equipe de Excelência e Biossegurança",
+    text: "Corpo clínico altamente especializado e suporte técnico dedicado a cada procedimento.",
   },
 ];
 
@@ -52,7 +52,8 @@ export function About() {
                 acreditamos que a saúde bucal e o bem-estar sistêmico caminham juntos.
                 Nossa estrutura foi planejada para oferecer um atendimento de excelência
                 que conecta a Medicina e a Odontologia, cuidando do desenvolvimento
-                infantil, da saúde metabólica e do sorriso em todas as fases da vida.
+                infantil, da saúde metabólica e do sorriso de pacientes em todas as
+                fases da vida.
               </p>
             </div>
           </Reveal>
@@ -108,7 +109,7 @@ export function About() {
       <div className="container-page mt-32 md:mt-44 grid gap-14 lg:grid-cols-12 lg:gap-20">
         <div className="lg:col-span-4">
           <Reveal>
-            <span className="eyebrow">Nossa História</span>
+            <span className="eyebrow">Nossa História e Abordagem Integrada</span>
           </Reveal>
           <Reveal delay={80}>
             <h3 className="mt-6 font-display text-3xl md:text-4xl leading-[1.1]">
@@ -141,10 +142,28 @@ export function About() {
               </p>
               <p>
                 A partir dessa união de talentos e laços de confiança, consolidou-se
-                na Sense uma visão verdadeiramente integrativa de saúde — a compreensão
+                na Sense uma visão verdadeiramente integrativa de saúde: a compreensão
                 de que o equilíbrio metabólico e hormonal dialoga diretamente com o
                 desenvolvimento facial, a prevenção, a estética e a reabilitação bucal
                 de toda a família.
+              </p>
+              <p>
+                Para garantir que cada atendimento aconteça com a máxima precisão e
+                acolhimento, a clínica fortaleceu sua estrutura com uma equipe de apoio
+                indispensável. O suporte técnico é conduzido por{" "}
+                <strong className="font-medium text-foreground">Amanda S. Nogueira</strong>{" "}
+                — técnica em enfermagem, especialista em instrumentação cirúrgica e
+                técnica em análises clínicas —, garantindo rigor, biossegurança e precisão
+                em todos os procedimentos. Recentemente, a equipe passou a contar também
+                com a dedicação de{" "}
+                <strong className="font-medium text-foreground">Yasmin Agnys Maia</strong>,
+                auxiliar em saúde bucal, agregando ainda mais agilidade, cuidado e
+                acolhimento à rotina da clínica.
+              </p>
+              <p>
+                Hoje, a Sense reúne medicina, odontologia e uma equipe multiprofissional
+                sob o mesmo teto, promovendo saúde, bem-estar e qualidade de vida do
+                público infantil ao adulto.
               </p>
             </div>
           </Reveal>

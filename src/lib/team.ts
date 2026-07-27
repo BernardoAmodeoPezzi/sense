@@ -26,7 +26,7 @@ export const team: Doctor[] = [
     specialty: "Medicina Endocrinológica e Preventiva",
     registry: "CREMERS 5527 · RE 0241",
     photo: drGuilherme,
-    bio: "Médico formado pela Universidade Federal do Rio Grande (FURG) em 1972, atua há mais de 54 anos na área da Endocrinologia, sendo especialista reconhecido pelo Conselho Federal de Medicina (CFM) desde 1978 e Médico Jubilado pelo CREMERS em 2022.\n\nPossui especializações em Medicina Ortomolecular, Medicina Estética e Cannabis Medicinal. Seu atendimento é focado na saúde integral e na medicina preventiva, unindo décadas de experiência clínica, atualização constante e um cuidado altamente individualizado.",
+    bio: "Médico formado pela Universidade Federal do Rio Grande (FURG) em 1972, com residência médica em Endocrinologia e Metabologia na Fundação Faculdade de Medicina de Porto Alegre — Santa Casa de Porto Alegre.\n\nAtua há mais de 54 anos na área da Endocrinologia, sendo especialista reconhecido pelo Conselho Federal de Medicina (CFM) desde 1978 e Médico Jubilado pelo CREMERS em 2022. Possui especializações em Medicina Ortomolecular, Medicina Estética e Cannabis Medicinal.\n\nFiel à sua visão de uma medicina avançada, participa constantemente de eventos nacionais e internacionais, como os congressos da Endocrine Society (EUA), da European Diabetes Association, da Sociedade Brasileira de Endocrinologia e Metabologia, da Medicina Ortomolecular (SP) e de Cannabis Medicinal.\n\nSeu atendimento é focado na saúde integral e na medicina preventiva, unindo décadas de experiência clínica, atualização constante e um cuidado altamente individualizado.",
   },
   {
     slug: "claudia-alves",
@@ -42,7 +42,7 @@ export const team: Doctor[] = [
     specialty: "Prótese Dentária & Endodontia",
     registry: "CRO-RS 9943",
     photo: drCristiane,
-    bio: "Graduada em Odontologia pela PUCRS em 1993, é especialista em Endodontia pelo Hospital de Aeronáutica de Canoas (2008) e em Prótese Dentária pela ABO-RS (2021).\n\nEx-professora de pós-graduação no curso de Implantodontia e integrante do International Team for Implantology (ITI). Sua atuação é focada em reabilitação oral, próteses sobre implantes, estética dentária e tratamentos endodônticos personalizados, unindo funcionalidade, saúde e resultados naturais.",
+    bio: "Graduada em Odontologia pela PUCRS em 1993, é especialista em Endodontia pelo Hospital de Aeronáutica de Canoas (2008) e em Prótese Dentária pela ABO-RS (2021).\n\nEx-professora de pós-graduação no curso de Implantodontia e integrante do International Team for Implantology (ITI). Sua atuação é focada em reabilitação oral, próteses sobre implantes, estética dentária, clínica odontológica e tratamentos endodônticos personalizados, unindo funcionalidade, saúde e resultados naturais.",
   },
   {
     slug: "carla-larentis",
@@ -50,7 +50,7 @@ export const team: Doctor[] = [
     specialty: "Ortodontia & Dentística Estética",
     registry: "CRO-RS 13062",
     photo: drCarla,
-    bio: "Formada em Odontologia pela UFRGS em 2001, possui sólida experiência em estética e alinhamento do sorriso. É especialista em Dentística pela UFRGS (2005) e em Ortodontia pela Sobracursos (2019).\n\nOferece tratamentos personalizados que unem técnica, funcionalidade e estética, com atuação voltada à promoção da saúde bucal, reabilitação estética e harmonização do sorriso — proporcionando mais confiança, conforto e qualidade de vida aos pacientes.",
+    bio: "Formada em Odontologia pela UFRGS em 2001, possui sólida experiência em estética e alinhamento do sorriso. É especialista em Dentística pela UFRGS (2005) e em Ortodontia pela Sobracursos (2019).\n\nOferece tratamentos personalizados que unem técnica, funcionalidade e estética, com atuação voltada à promoção da saúde bucal, reabilitação estética e harmonização do sorriso — proporcionando mais confiança, conforto e qualidade de vida aos pacientes por meio de um atendimento cuidadoso e atualizado.",
   },
 ];
 
