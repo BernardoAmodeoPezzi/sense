@@ -9,6 +9,7 @@ import { Location } from "@/components/site/Location";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { BackToTop } from "@/components/site/BackToTop";
+import { BookingDialog } from "@/components/site/BookingDialog";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -71,6 +72,7 @@ function Index() {
       </main>
       <Footer />
       <BackToTop />
+      <BookingDialog />
     </div>
   );
 }
