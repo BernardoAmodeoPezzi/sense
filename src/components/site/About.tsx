@@ -13,20 +13,20 @@ const values = [
 
 const differentials = [
   {
-    title: "Tradição & Inovação",
-    text: "Mais de 54 anos de experiência clínica combinados às técnicas mais modernas da odontologia contemporânea.",
+    title: "Décadas de Tradição e Inovação",
+    text: "Liderança médica com mais de 54 anos de experiência clínica combinada às técnicas mais modernas e ao embasamento científico da odontologia.",
   },
   {
-    title: "Visão Sistêmica",
+    title: "Visão Sistêmica e Preventiva",
     text: "Conexão real entre endocrinologia, medicina ortomolecular, desenvolvimento facial e reabilitação oral.",
   },
   {
-    title: "Toda a Família",
+    title: "Atendimento para Toda a Família",
     text: "Da prevenção na primeira infância ao acompanhamento metabólico, funcional e estético de adultos e idosos.",
   },
   {
-    title: "Excelência & Biossegurança",
-    text: "Corpo clínico altamente especializado e equipe de suporte técnico dedicada a cada procedimento.",
+    title: "Equipe de Excelência e Biossegurança",
+    text: "Corpo clínico altamente especializado e suporte técnico dedicado a cada procedimento.",
   },
 ];
 
