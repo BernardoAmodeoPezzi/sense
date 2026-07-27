@@ -10,6 +10,9 @@ export type Doctor = {
   registry: string;
   photo: string;
   bio: string;
+  phone: string;
+  phoneTel: string;
+  whatsapp: string;
 };
 
 export type SupportMember = {
