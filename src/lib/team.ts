@@ -97,3 +97,28 @@ export const CONTACT = {
   addressLine2: "Moinhos de Vento – Porto Alegre / RS",
   addressLine3: "CEP 90430-010 · Galeria Florêncio Ygartua",
 } as const;
+
+export type BookingOption = {
+  id: string;
+  doctors: string;
+  phone: string;
+  phoneTel: string;
+  whatsapp: string;
+};
+
+export const BOOKING_OPTIONS: BookingOption[] = [
+  {
+    id: "medicina-odontopediatria",
+    doctors: "Dr. Guilherme Ruivo ou Dra. Cláudia Alves",
+    phone: "(51) 3222-3198",
+    phoneTel: "+555132223198",
+    whatsapp: "https://wa.me/5132223198",
+  },
+  {
+    id: "protese-ortodontia",
+    doctors: "Dra. Cristiane Biasuz ou Dra. Carla Larentis",
+    phone: "(51) 3208-2829",
+    phoneTel: "+555132082829",
+    whatsapp: "https://wa.me/5132082829",
+  },
+];
