@@ -1,13 +1,15 @@
 import { Reveal } from "./Reveal";
-import { CONTACT } from "@/lib/team";
+import { CONTACT, BOOKING_OPTIONS } from "@/lib/team";
+import { openBooking } from "./BookingDialog";
 import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 import type { ComponentType, SVGProps } from "react";
 
 type Item = {
   label: string;
   hint: string;
-  href: string;
+  href?: string;
   external?: boolean;
+  action?: () => void;
   Icon?: ComponentType<SVGProps<SVGSVGElement>>;
 };
 
@@ -20,7 +22,7 @@ const items: Item[] = [
     Icon: InstagramIcon,
   },
   { label: "Facebook", hint: "Sense Medicina & Odontologia", href: CONTACT.facebook, external: true, Icon: FacebookIcon },
-  { label: "Agendar Horário", hint: "WhatsApp — resposta imediata", href: CONTACT.whatsapp, external: true, Icon: WhatsAppIcon },
+  { label: "Agendar Horário", hint: "WhatsApp — resposta imediata", action: openBooking, Icon: WhatsAppIcon },
   { label: "Localização", hint: "Google Maps", href: CONTACT.maps, external: true },
 ];
 
@@ -38,23 +40,38 @@ export function Contact() {
             </h2>
           </Reveal>
           <Reveal delay={140}>
-            <a
-              href={`tel:${CONTACT.phoneTel}`}
-              className="mt-8 inline-block font-display text-3xl md:text-4xl text-foreground hover:text-sand transition-colors"
-            >
-              {CONTACT.phone}
-            </a>
+            <div className="mt-8 space-y-4">
+              {BOOKING_OPTIONS.map((opt) => (
+                <div key={opt.id}>
+                  <a
+                    href={`tel:${opt.phoneTel}`}
+                    className="font-display text-3xl md:text-4xl text-foreground hover:text-sand transition-colors"
+                  >
+                    {opt.phone}
+                  </a>
+                  <div className="mt-1 text-sm font-light text-foreground/60">
+                    {opt.doctors}
+                  </div>
+                </div>
+              ))}
+            </div>
           </Reveal>
         </div>
 
         <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
-          {items.map((it, i) => (
+          {items.map((it, i) => {
+            const Tag = (it.action ? "button" : "a") as "a";
+            return (
             <Reveal key={it.label} delay={i * 80}>
-              <a
-                href={it.href}
-                target={it.external ? "_blank" : undefined}
-                rel={it.external ? "noreferrer" : undefined}
-                className="group block h-full bg-background p-8 md:p-10 transition-colors duration-500 hover:bg-sand/[0.08]"
+              <Tag
+                {...(it.action
+                  ? { type: "button" as const, onClick: it.action }
+                  : {
+                      href: it.href,
+                      target: it.external ? "_blank" : undefined,
+                      rel: it.external ? "noreferrer" : undefined,
+                    })}
+                className="group block h-full w-full text-left bg-background p-8 md:p-10 transition-colors duration-500 hover:bg-sand/[0.08]"
               >
                 <div className="text-xs uppercase tracking-[0.22em] text-foreground/50">
                   0{i + 1}
@@ -67,9 +84,10 @@ export function Contact() {
                 <div className="mt-8 text-sand text-xl opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">
                   →
                 </div>
-              </a>
+              </Tag>
             </Reveal>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

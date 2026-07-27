@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import logoMark from "@/assets/logo-mark.png";
-import { CONTACT } from "@/lib/team";
+import { openBooking } from "./BookingDialog";
 
 const nav = [
   { label: "Início", href: "#inicio" },
@@ -49,14 +49,13 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a
-            href={CONTACT.whatsapp}
-            target="_blank"
-            rel="noreferrer"
+          <button
+            type="button"
+            onClick={openBooking}
             className="btn-primary hidden md:inline-flex text-[0.72rem]! px-5! py-2.5!"
           >
             Agendar Consulta
-          </a>
+          </button>
           <button
             aria-label="Abrir menu"
             className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-border"
@@ -95,14 +94,16 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <a
-            href={CONTACT.whatsapp}
-            target="_blank"
-            rel="noreferrer"
+          <button
+            type="button"
+            onClick={() => {
+              setOpen(false);
+              openBooking();
+            }}
             className="btn-primary mt-2 w-full"
           >
             Agendar Consulta
-          </a>
+          </button>
         </div>
       </div>
     </header>

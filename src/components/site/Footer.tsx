@@ -1,5 +1,6 @@
 import logoFull from "@/assets/sense-logo-full.png.asset.json";
-import { CONTACT } from "@/lib/team";
+import { CONTACT, BOOKING_OPTIONS } from "@/lib/team";
+import { openBooking } from "./BookingDialog";
 import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 
 export function Footer() {
@@ -26,9 +27,17 @@ export function Footer() {
         <div>
           <div className="eyebrow">Contato</div>
           <div className="mt-4 space-y-2 text-sm font-light">
-            <a href={`tel:${CONTACT.phoneTel}`} className="block hover:text-sand transition-colors">
-              {CONTACT.phone}
-            </a>
+            {BOOKING_OPTIONS.map((opt) => (
+              <div key={opt.id}>
+                <a
+                  href={`tel:${opt.phoneTel}`}
+                  className="block hover:text-sand transition-colors"
+                >
+                  {opt.phone}
+                </a>
+                <div className="text-xs text-foreground/50">{opt.doctors}</div>
+              </div>
+            ))}
             <a
               href={CONTACT.instagram}
               target="_blank"
@@ -47,15 +56,14 @@ export function Footer() {
               <FacebookIcon className="h-4 w-4" />
               Facebook
             </a>
-            <a
-              href={CONTACT.whatsapp}
-              target="_blank"
-              rel="noreferrer"
+            <button
+              type="button"
+              onClick={openBooking}
               className="inline-flex items-center gap-2 hover:text-sand transition-colors"
             >
               <WhatsAppIcon className="h-4 w-4" />
               WhatsApp
-            </a>
+            </button>
           </div>
         </div>
       </div>

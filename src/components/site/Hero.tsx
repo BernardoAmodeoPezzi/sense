@@ -1,4 +1,4 @@
-import { CONTACT } from "@/lib/team";
+import { openBooking } from "./BookingDialog";
 import heroAsset from "@/assets/sense-hero-wall.png.asset.json";
 
 export function Hero() {
@@ -18,14 +18,9 @@ export function Hero() {
           className="fade-in-up flex flex-wrap gap-3"
           style={{ animationDelay: "200ms" }}
         >
-          <a
-            href={CONTACT.whatsapp}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-primary"
-          >
+          <button type="button" onClick={openBooking} className="btn-primary">
             Agendar Horário
-          </a>
+          </button>
           <a
             href="#localizacao"
             className="btn-ghost"

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { team, supportTeam, type Doctor, CONTACT } from "@/lib/team";
+import { team, supportTeam, type Doctor } from "@/lib/team";
 import { Reveal } from "./Reveal";
 
 export function Team() {
@@ -164,13 +164,19 @@ function DoctorModal({ doctor, onClose }: { doctor: Doctor; onClose: () => void 
             <p className="mt-2 text-xs uppercase tracking-[0.18em] text-foreground/55">
               {doctor.registry}
             </p>
+            <a
+              href={`tel:${doctor.phoneTel}`}
+              className="mt-3 inline-block text-sm text-foreground/70 hover:text-sand transition-colors"
+            >
+              {doctor.phone}
+            </a>
             <div className="mt-6 space-y-4 text-foreground/75 font-light leading-relaxed text-[0.95rem]">
               {doctor.bio.split("\n\n").map((p, i) => (
                 <p key={i}>{p}</p>
               ))}
             </div>
             <a
-              href={CONTACT.whatsapp}
+              href={doctor.whatsapp}
               target="_blank"
               rel="noreferrer"
               className="btn-primary mt-8"
