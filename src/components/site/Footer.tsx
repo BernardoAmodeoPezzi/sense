@@ -1,4 +1,4 @@
-import logoFull from "@/assets/sense-logo-full.png.asset.json";
+import logoFull from "@/assets/sense-logo-full.png";
 import { CONTACT, BOOKING_OPTIONS } from "@/lib/team";
 import { openBooking } from "./BookingDialog";
 import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
@@ -10,7 +10,7 @@ export function Footer() {
       <div className="container-page grid gap-12 md:grid-cols-3">
         <div>
           <img
-            src={logoFull.url}
+            src={logoFull}
             alt="Sense — Medicina & Odontologia Integradas"
             className="h-20 w-auto md:h-24"
           />
