@@ -21,13 +21,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Clínica boutique em Moinhos de Vento reunindo endocrinologia e odontologia. Saúde integrada para cuidar de você em todas as fases da vida.",
+          "Sense Medicina & Odontologia Integradas: atendimento médico e odontológico de excelência, tecnologia, conforto e cuidado humanizado em Porto Alegre.",
       },
-      { property: "og:title", content: "Sense — Medicina & Odontologia Integradas" },
+      { property: "og:title", content: "Sense — Medicina & Odontologia Integradas em Porto Alegre" },
       {
         property: "og:description",
         content:
-          "Cuidado humanizado que faz sentido. Endocrinologia e odontologia integradas em Porto Alegre.",
+          "Sense Medicina & Odontologia Integradas: atendimento médico e odontológico de excelência, tecnologia, conforto e cuidado humanizado em Porto Alegre.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

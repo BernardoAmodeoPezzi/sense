@@ -77,16 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sense — Medicina & Odontologia Integradas" },
+      { title: "Sense — Medicina & Odontologia Integradas em Porto Alegre" },
       {
         name: "description",
         content:
-          "Clínica boutique em Moinhos de Vento (Porto Alegre) reunindo endocrinologia e odontologia. O cuidado que faz sentido.",
+          "Sense Medicina & Odontologia Integradas: atendimento médico e odontológico de excelência, tecnologia, conforto e cuidado humanizado em Porto Alegre.",
       },
       { name: "theme-color", content: "#cbaf95" },
       { property: "og:site_name", content: "Sense" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Sense — Medicina & Odontologia Integradas em Porto Alegre" },
+      { name: "twitter:title", content: "Sense — Medicina & Odontologia Integradas em Porto Alegre" },
+      { property: "og:description", content: "Sense Medicina & Odontologia Integradas: atendimento médico e odontológico de excelência, tecnologia, conforto e cuidado humanizado em Porto Alegre." },
+      { name: "twitter:description", content: "Sense Medicina & Odontologia Integradas: atendimento médico e odontológico de excelência, tecnologia, conforto e cuidado humanizado em Porto Alegre." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/kFdJqbSiN5WVwd6SObooUTcG5hv2/social-images/social-1785166107606-Sense_Logo_-_Design.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/kFdJqbSiN5WVwd6SObooUTcG5hv2/social-images/social-1785166107606-Sense_Logo_-_Design.webp" },
     ],
     links: [
       {
@@ -106,7 +112,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap",
       },
-      { rel: "icon", href: "/favicon.png", type: "image/png" },
     ],
   }),
   shellComponent: RootShell,
