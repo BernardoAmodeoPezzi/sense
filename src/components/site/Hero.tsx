@@ -1,12 +1,12 @@
 import { openBooking } from "./BookingDialog";
 import heroAsset from "@/assets/sense-hero-wall.png";
-import heroMobileAsset from "@/assets/sense-hero-wall-mobile.png.asset.json";
+import heroMobileAsset from "@/assets/sense-hero-wall-mobile.png";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-[100svh] w-full overflow-hidden bg-[#1b1e22]">
       <img
-        src={heroMobileAsset.url}
+        src={heroMobileAsset}
         alt="Sense — Medicina & Odontologia Integradas"
         className="absolute inset-0 h-full w-full object-cover object-center sm:hidden"
       />
