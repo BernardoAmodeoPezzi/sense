@@ -94,12 +94,6 @@ export function About() {
                 height={1600}
                 className="w-full rounded-[1.5rem] object-cover aspect-[4/5] shadow-2xl"
               />
-              <div className="absolute -bottom-6 -left-6 hidden md:block rounded-2xl bg-background px-6 py-5 shadow-xl border border-border/60 max-w-[220px]">
-                <div className="eyebrow">Sense</div>
-                <div className="mt-2 font-display text-lg leading-snug">
-                  Clínica boutique em Moinhos de Vento
-                </div>
-              </div>
             </div>
           </Reveal>
         </div>
