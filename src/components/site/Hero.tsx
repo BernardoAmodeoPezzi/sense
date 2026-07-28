@@ -1,17 +1,24 @@
 import { openBooking } from "./BookingDialog";
 import heroAsset from "@/assets/sense-hero-wall.png";
+import heroMobileAsset from "@/assets/sense-hero-wall-mobile.png.asset.json";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative min-h-[100svh] w-full overflow-hidden bg-[#1b1e22]">
       <img
+        src={heroMobileAsset.url}
+        alt="Sense — Medicina & Odontologia Integradas"
+        className="absolute inset-0 h-full w-full object-cover object-center sm:hidden"
+      />
+      <img
         src={heroAsset}
         alt="Sense — Medicina & Odontologia Integradas"
-        className="absolute inset-0 h-full w-full object-contain object-top sm:object-cover sm:object-center"
+        className="absolute inset-0 hidden h-full w-full object-cover object-center sm:block"
         width={2000}
         height={1200}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/50" />
+
 
       <div className="container-page relative z-10 flex min-h-[100svh] flex-col justify-end pb-24">
         <div
