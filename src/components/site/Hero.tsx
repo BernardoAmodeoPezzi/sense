@@ -3,7 +3,7 @@ import heroAsset from "@/assets/sense-hero-wall.png";
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative min-h-[100svh] w-full overflow-hidden">
+    <section id="inicio" className="relative min-h-[100svh] w-full overflow-hidden bg-[#1b1e22]">
       <img
         src={heroAsset}
         alt="Sense — Medicina & Odontologia Integradas"
