@@ -121,48 +121,33 @@ export function About() {
           <Reveal delay={120}>
             <div className="space-y-5 text-base md:text-lg font-light leading-relaxed text-foreground/75">
               <p>
-                A Sense nasceu da visão e liderança de seu fundador, o médico
-                endocrinologista <strong className="font-medium text-foreground">Dr. Guilherme Ruivo</strong>,
+                A clínica começou com o consultório do{" "}
+                <strong className="font-medium text-foreground">Dr. Guilherme Ruivo</strong>,
                 com a proposta de oferecer um olhar aprofundado, humano e preventivo
-                para a saúde de seus pacientes.
-              </p>
-              <p>
-                A trajetória ganhou um novo capítulo com a chegada de sua filha,
+                para a saúde de seus pacientes. Mais tarde, com a chegada da sua filha,
                 a <strong className="font-medium text-foreground">Dra. Claudia Alves</strong>,
-                trazendo sua especialização em Odontopediatria e Ortopedia Funcional
-                dos Maxilares para consolidar a atenção ao desenvolvimento infantil,
-                ao tratamento da respiração bucal e à prevenção de más oclusões.
+                o espaço passou a contar também com a odontologia, trazendo um cuidado
+                dedicado ao desenvolvimento infantil, à respiração bucal e à prevenção
+                de más oclusões.
               </p>
               <p>
-                Para somar a essa visão de cuidado completo, uniram-se à equipe
-                suas colegas e amigas <strong className="font-medium text-foreground">Dra. Cristiane Biasuz</strong>,
-                especialista em Prótese Dentária e Endodontia, e a{" "}
-                <strong className="font-medium text-foreground">Dra. Carla Larentis</strong>,
-                especialista em Ortodontia e Dentística Estética.
+                A Sense Medicina e Odontologia Integrada nasceu oficialmente quando se
+                uniram ao consultório as cirurgiãs-dentistas{" "}
+                <strong className="font-medium text-foreground">Dra. Cristiane Biasuz</strong>{" "}
+                e <strong className="font-medium text-foreground">Dra. Carla Larentis</strong>.
+                A partir dessa união de talentos e laços de confiança, o espaço se
+                transformou em uma clínica completa, conectando o equilíbrio metabólico
+                e hormonal à saúde, estética e reabilitação bucal de toda a família.
               </p>
               <p>
-                A partir dessa união de talentos e laços de confiança, consolidou-se
-                na Sense uma visão verdadeiramente integrativa de saúde: a compreensão
-                de que o equilíbrio metabólico e hormonal dialoga diretamente com o
-                desenvolvimento facial, a prevenção, a estética e a reabilitação bucal
-                de toda a família.
-              </p>
-              <p>
-                Para garantir que cada atendimento aconteça com a máxima precisão e
-                acolhimento, a clínica fortaleceu sua estrutura com uma equipe de apoio
-                indispensável. O suporte técnico é conduzido por{" "}
-                <strong className="font-medium text-foreground">Amanda S. Nogueira</strong>{" "}
-                — técnica em enfermagem, especialista em instrumentação cirúrgica e
-                técnica em análises clínicas —, garantindo rigor, biossegurança e precisão
-                em todos os procedimentos. Recentemente, a equipe passou a contar também
-                com a dedicação de{" "}
+                Para garantir a máxima precisão e acolhimento em cada atendimento, a
+                Sense conta com uma equipe de apoio fundamental:{" "}
+                <strong className="font-medium text-foreground">Amanda S. Nogueira</strong>,
+                técnica em enfermagem e especialista em instrumentação cirúrgica e
+                análises clínicas, e{" "}
                 <strong className="font-medium text-foreground">Yasmin Agnys Maia</strong>,
-                auxiliar em saúde bucal, agregando ainda mais agilidade, cuidado e
-                acolhimento à rotina da clínica.
-              </p>
-              <p>
-                Hoje, a Sense reúne medicina, odontologia e uma equipe multiprofissional
-                sob o mesmo teto, promovendo saúde, bem-estar e qualidade de vida do
+                auxiliar em saúde bucal. Hoje, reunimos medicina, odontologia e suporte
+                multiprofissional sob o mesmo teto, promovendo saúde e bem-estar do
                 público infantil ao adulto.
               </p>
             </div>

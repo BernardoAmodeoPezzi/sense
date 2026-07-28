@@ -7,7 +7,7 @@ export function Hero() {
       <img
         src={heroAsset}
         alt="Sense — Medicina & Odontologia Integradas"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-contain object-top sm:object-cover sm:object-center"
         width={2000}
         height={1200}
       />
