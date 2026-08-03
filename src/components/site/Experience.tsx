@@ -1,7 +1,11 @@
 import { Reveal } from "./Reveal";
-import smile from "@/assets/gallery-smile.jpg";
-import instruments from "@/assets/gallery-instruments.jpg";
-import orchid from "@/assets/gallery-orchid.jpg";
+import video1 from "@/assets/sense-1.mp4.asset.json";
+import video2 from "@/assets/sense-2.mp4.asset.json";
+import video3 from "@/assets/sense-3.mp4.asset.json";
+import video4 from "@/assets/sense-4.mp4.asset.json";
+
+const videos = [video1, video2, video3, video4];
+
 
 
 export function Experience() {
