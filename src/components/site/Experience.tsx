@@ -38,7 +38,7 @@ export function Experience() {
             <Reveal key={v.asset_id} delay={i * 120}>
               <div className="overflow-hidden rounded-[1.25rem] bg-ink/5">
                 <video
-                  src={v.url}
+                  src={v}
                   autoPlay
                   muted
                   loop
