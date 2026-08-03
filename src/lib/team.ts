@@ -51,7 +51,7 @@ export const team: Doctor[] = [
     specialty: "Prótese Dentária & Endodontia",
     registry: "CRO-RS 9943",
     photo: drCristiane,
-    bio: "Graduada em Odontologia pela PUCRS em 1993, é especialista em Endodontia pelo Hospital de Aeronáutica de Canoas (2008) e em Prótese Dentária pela ABO-RS (2021).\n\nEx-professora de pós-graduação no curso de Implantodontia e integrante do International Team for Implantology (ITI). Sua atuação é focada em reabilitação oral, próteses sobre implantes, estética dentária, clínica odontológica e tratamentos endodônticos personalizados, unindo funcionalidade, saúde e resultados naturais.",
+    bio: "Graduada em Odontologia pela PUCRS em 1993, é especialista em Endodontia pelo Hospital de Aeronáutica de Canoas (2008) e em Prótese Dentária pela ABO-RS (2001).\n\nEx-professora de pós-graduação no curso de Implantodontia e integrante do International Team for Implantology (ITI). Sua atuação é focada em reabilitação oral, próteses sobre implantes, estética dentária, clínica odontológica e tratamentos endodônticos personalizados, unindo funcionalidade, saúde e resultados naturais.",
     phone: "(51) 3208-2829",
     phoneTel: "+555132082829",
     whatsapp: "https://wa.me/5132082829",
