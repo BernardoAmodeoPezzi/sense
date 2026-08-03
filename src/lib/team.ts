@@ -1,6 +1,6 @@
 import drGuilherme from "@/assets/dr-guilherme.jpeg";
 import drClaudia from "@/assets/dr-claudia.jpeg";
-import drCristiane from "@/assets/dr-cristiane.jpeg";
+import drCristiane from "@/assets/dr-cristiane.png";
 import drCarla from "@/assets/dr-carla.jpeg";
 
 export type Doctor = {
