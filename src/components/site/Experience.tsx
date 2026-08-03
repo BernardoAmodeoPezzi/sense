@@ -33,39 +33,25 @@ export function Experience() {
           </Reveal>
         </div>
 
-        <div className="mt-20 grid grid-cols-12 gap-4 md:gap-6">
-          <Reveal className="col-span-12 md:col-span-7 lg:col-span-8">
-            <div className="overflow-hidden rounded-[1.25rem]">
-              <img
-                src={instruments}
-                alt="Detalhe de instrumentos clínicos"
-                loading="lazy"
-                className="w-full aspect-[16/10] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
-              />
-            </div>
-          </Reveal>
-          <Reveal delay={120} className="col-span-12 md:col-span-5 lg:col-span-4">
-            <div className="overflow-hidden rounded-[1.25rem]">
-              <img
-                src={orchid}
-                alt="Detalhe delicado — orquídea"
-                loading="lazy"
-                className="w-full aspect-[16/10] md:aspect-[4/5] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
-              />
-            </div>
-          </Reveal>
-          <Reveal className="col-span-12">
-            <div className="overflow-hidden rounded-[1.25rem]">
-              <img
-                src={smile}
-                alt="Sorriso saudável"
-                loading="lazy"
-                className="w-full aspect-[16/9] object-cover transition-transform duration-[1200ms] hover:scale-[1.03]"
-              />
-            </div>
-          </Reveal>
-
+        <div className="mt-20 grid gap-4 md:gap-6 md:grid-cols-2">
+          {videos.map((v, i) => (
+            <Reveal key={v.asset_id} delay={i * 120}>
+              <div className="overflow-hidden rounded-[1.25rem] bg-ink/5">
+                <video
+                  src={v.url}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-label="Vídeo institucional da clínica Sense"
+                  className="w-full aspect-[16/9] object-cover"
+                />
+              </div>
+            </Reveal>
+          ))}
         </div>
+
 
         <Reveal delay={200}>
           <p className="mt-20 mx-auto max-w-2xl text-center font-display italic text-2xl md:text-3xl leading-relaxed text-foreground/85">
