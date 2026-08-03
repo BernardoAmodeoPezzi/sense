@@ -153,7 +153,7 @@ function DoctorModal({ doctor, onClose }: { doctor: Doctor; onClose: () => void 
             <img
               src={doctor.photo}
               alt={doctor.name}
-              className="h-64 md:h-full w-full object-cover md:aspect-auto aspect-[4/3]"
+              className="w-full aspect-[4/5] object-cover object-top sm:aspect-[3/2] md:h-full md:aspect-auto md:object-center"
             />
           </div>
           <div className="md:col-span-3 p-8 md:p-12">
