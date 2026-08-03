@@ -1,8 +1,8 @@
 import { Reveal } from "./Reveal";
-import video1 from "@/assets/sense-1.mp4.asset.json";
-import video2 from "@/assets/sense-2.mp4.asset.json";
-import video3 from "@/assets/sense-3.mp4.asset.json";
-import video4 from "@/assets/sense-4.mp4.asset.json";
+import video1 from "@/assets/sense-1.mp4";
+import video2 from "@/assets/sense-2.mp4";
+import video3 from "@/assets/sense-3.mp4";
+import video4 from "@/assets/sense-4.mp4";
 
 const videos = [video1, video2, video3, video4];
 
