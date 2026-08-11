@@ -118,11 +118,12 @@ export function About() {
                 A clínica começou com o consultório do{" "}
                 <strong className="font-medium text-foreground">Dr. Guilherme Ruivo</strong>,
                 com a proposta de oferecer um olhar aprofundado, humano e preventivo
-                para a saúde de seus pacientes. Mais tarde, com a chegada da sua filha,
-                a <strong className="font-medium text-foreground">Dra. Claudia Alves</strong>,
+                para a saúde de seus pacientes. Mais tarde, com a chegada de sua filha,
+                a <strong className="font-medium text-foreground">Dra. Cláudia Alves</strong>,
                 o espaço passou a contar também com a odontologia, trazendo um cuidado
-                dedicado ao desenvolvimento infantil, à respiração bucal e à prevenção
-                de más oclusões.
+                dedicado ao desenvolvimento infantil, à respiração bucal e prevenção
+                de más oclusões através da ortopedia funcional dos maxilares — prevenção
+                e tratamento das bases ósseas da face, dos músculos e da correta função oral.
               </p>
               <p>
                 A Sense Medicina e Odontologia Integrada nasceu oficialmente quando se
