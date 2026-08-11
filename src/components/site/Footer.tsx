@@ -4,7 +4,6 @@ import { openBooking } from "./BookingDialog";
 import { InstagramIcon, FacebookIcon, WhatsAppIcon } from "./SocialIcons";
 
 export function Footer() {
-  const year = new Date().getFullYear();
   return (
     <footer className="border-t border-border/60 pt-20 pb-10">
       <div className="container-page grid gap-12 md:grid-cols-3">
@@ -68,7 +67,6 @@ export function Footer() {
         </div>
       </div>
       <div className="container-page mt-16 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-border/60 pt-8 text-xs uppercase tracking-[0.2em] text-foreground/50">
-        <div>© {year} Sense. Direitos reservados.</div>
         <div>Porto Alegre / RS</div>
       </div>
     </footer>
