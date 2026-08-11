@@ -37,7 +37,7 @@ export const team: Doctor[] = [
   {
     slug: "claudia-alves",
     name: "Dra. Cláudia Alves",
-    specialty: "Odontopediatria & Ortopedia Funcional",
+    specialty: "Odontopediatria & Ortopedia Funcional dos Maxilares",
     registry: "CRO-RS 18135",
     photo: drClaudia,
     bio: "Graduada pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS) em 2008, é especialista em Odontopediatria pela Universidade Federal do Rio Grande do Sul (UFRGS - 2013) e possui formação em Ortopedia Funcional dos Maxilares pela SOBRACOM, área na qual segue em constante aperfeiçoamento.\n\nSeu atendimento é focado em cuidado humanizado, prevenção, desenvolvimento funcional e acompanhamento individualizado para crianças e adolescentes.",

@@ -35,7 +35,7 @@ export function Experience() {
 
         <div className="mt-20 grid gap-4 md:gap-6 md:grid-cols-2">
           {videos.map((v, i) => (
-            <Reveal key={v.asset_id} delay={i * 120}>
+            <Reveal key={i} delay={i * 120}>
               <div className="overflow-hidden rounded-[1.25rem] bg-ink/5">
                 <video
                   src={v}
