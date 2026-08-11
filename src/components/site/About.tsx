@@ -18,7 +18,7 @@ const differentials = [
   },
   {
     title: "Visão Sistêmica e Preventiva",
-    text: "Conexão entre a saúde bucal e a saúde metabólica desde cedo, envolvendo endocrinologia, medicina ortomolecular, reabilitação oral e correto desenvolvimento facial.",
+    text: "Conexão entre a saúde bucal e a saúde metabólica, envolvendo endocrinologia, medicina ortomolecular, reabilitação oral e correto desenvolvimento facial.",
   },
   {
     title: "Atendimento para Toda a Família",
@@ -192,8 +192,8 @@ export function About() {
             <span className="eyebrow">Visão</span>
             <p className="mt-5 font-light leading-relaxed text-foreground/75">
               Ser referência em saúde multidisciplinar, medicina preventiva, ortopedia
-              funcional, reabilitação oral e manutenção do sorriso no aspecto funcional
-              e estético.
+              funcional dos maxilares, reabilitação oral e manutenção do sorriso no
+              aspecto funcional e estético.
             </p>
           </div>
         </Reveal>
