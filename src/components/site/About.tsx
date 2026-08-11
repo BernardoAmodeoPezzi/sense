@@ -3,7 +3,7 @@ import gallerySmile from "@/assets/about-institucional.jpeg";
 
 const values = [
   "Tradição",
-  "Ciência",
+  "Ciência Atualizada",
   "Empatia",
   "União",
   "Biossegurança",
@@ -18,11 +18,11 @@ const differentials = [
   },
   {
     title: "Visão Sistêmica e Preventiva",
-    text: "Conexão real entre endocrinologia, medicina ortomolecular, desenvolvimento facial e reabilitação oral.",
+    text: "Conexão entre a saúde bucal e a saúde metabólica desde cedo, envolvendo endocrinologia, medicina ortomolecular, reabilitação oral e correto desenvolvimento facial.",
   },
   {
     title: "Atendimento para Toda a Família",
-    text: "Da prevenção na primeira infância ao acompanhamento metabólico, funcional e estético de adultos e idosos.",
+    text: "Preocupados com a prevenção e manutenção da saúde desde a primeira infância, passando pela fase adulta e terceira idade.",
   },
   {
     title: "Equipe de Excelência e Biossegurança",
@@ -190,8 +190,9 @@ export function About() {
           <div>
             <span className="eyebrow">Visão</span>
             <p className="mt-5 font-light leading-relaxed text-foreground/75">
-              Ser referência em saúde multidisciplinar, medicina preventiva e ortopedia
-              funcional, destacando-se pelo cuidado completo da família.
+              Ser referência em saúde multidisciplinar, medicina preventiva, ortopedia
+              funcional, reabilitação oral e manutenção do sorriso no aspecto funcional
+              e estético.
             </p>
           </div>
         </Reveal>
