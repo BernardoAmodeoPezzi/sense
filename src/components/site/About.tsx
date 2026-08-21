@@ -1,5 +1,6 @@
 import { Reveal } from "./Reveal";
-import gallerySmile from "@/assets/about-institucional.jpeg";
+import aboutInstitucionalAsset from "@/assets/about-institucional.jpeg.asset.json";
+
 
 const values = [
   "Tradição",
@@ -87,7 +88,7 @@ export function About() {
                 }}
               />
               <img
-                src={gallerySmile}
+                src={aboutInstitucionalAsset.url}
                 alt="Fundadores da Sense"
                 loading="lazy"
                 width={1200}
