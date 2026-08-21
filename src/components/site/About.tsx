@@ -88,7 +88,7 @@ export function About() {
                 }}
               />
               <img
-                src={aboutInstitucionalAsset.url}
+                src={aboutInstitucionalAsset}
                 alt="Equipe Sense"
                 loading="lazy"
                 width={1600}
