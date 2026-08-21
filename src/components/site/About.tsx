@@ -88,7 +88,7 @@ export function About() {
                 }}
               />
               <img
-                src={gallerySmile}
+                src={aboutInstitucionalAsset.url}
                 alt="Fundadores da Sense"
                 loading="lazy"
                 width={1200}
