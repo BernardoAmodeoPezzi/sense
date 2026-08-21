@@ -88,12 +88,12 @@ export function About() {
                 }}
               />
               <img
-                src={aboutInstitucionalAsset.url}
-                alt="Fundadores da Sense"
+                src={aboutInstitucionalAsset}
+                alt="Equipe Sense"
                 loading="lazy"
-                width={1200}
-                height={1600}
-                className="w-full rounded-[1.5rem] object-cover aspect-[4/5] shadow-2xl"
+                width={1600}
+                height={1075}
+                className="w-full h-auto rounded-[1.5rem] object-contain shadow-2xl"
               />
             </div>
           </Reveal>
