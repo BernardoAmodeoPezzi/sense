@@ -93,7 +93,7 @@ export function About() {
                 loading="lazy"
                 width={1600}
                 height={1075}
-                className="w-full h-auto rounded-[1.5rem] object-contain shadow-2xl"
+                className="w-full h-auto rounded-[1.5rem] object-contain shadow-2xl scale-[1.08]"
               />
             </div>
           </Reveal>
