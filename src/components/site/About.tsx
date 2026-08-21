@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import aboutInstitucionalAsset from "@/assets/about-institucional.jpeg.asset.json";
+import aboutInstitucionalAsset from "@/assets/about-institucional.jpeg";
 
 
 const values = [
