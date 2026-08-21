@@ -1,5 +1,6 @@
 import { Reveal } from "./Reveal";
-import gallerySmile from "@/assets/about-institucional.jpeg";
+import aboutInstitucionalAsset from "@/assets/about-institucional.jpeg.asset.json";
+
 
 const values = [
   "Tradição",
