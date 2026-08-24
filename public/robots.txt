@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://senseintegrada.com/sitemap.xml
